@@ -1,6 +1,10 @@
 from pydantic import BaseModel
 
-class Doctor(BaseModel):
+class DoctorCreate(BaseModel):
+    name: str
+    specialization: str
+
+class DoctorResponse(BaseModel):
     id: int
     name: str
     specialization: str
