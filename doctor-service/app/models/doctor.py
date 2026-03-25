@@ -1,0 +1,1 @@
+# Optional model placeholder for future expansion
