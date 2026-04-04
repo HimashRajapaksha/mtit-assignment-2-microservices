@@ -1,6 +1,6 @@
 SERVICE_MAP = {
-    "patients": "http://127.0.0.1:8001",
-    "doctors": "http://127.0.0.1:8002",
-    "appointments": "http://127.0.0.1:8003",
-    "bills": "http://127.0.0.1:8004",
+    "patient": "http://127.0.0.1:8001",
+    "doctor": "http://127.0.0.1:8002",
+    "appointment": "http://127.0.0.1:8003",
+    "billing": "http://127.0.0.1:8004",
 }

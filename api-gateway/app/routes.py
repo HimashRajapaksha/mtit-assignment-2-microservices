@@ -11,7 +11,7 @@ async def gateway(service: str, request: Request, path: str = ""):
     if service not in SERVICE_MAP:
         return JSONResponse(status_code=404, content={"detail": "Service not found"})
 
-    target_url = f"{SERVICE_MAP[service]}/{service}"
+    target_url = SERVICE_MAP[service]
     if path:
         target_url += f"/{path}"
 
